@@ -4,7 +4,7 @@ import java.net.Socket; // Import the Socket class
 
 public class TCPServer {
     public static void main(String[] args) {
-        int port = 65432; // The port number on which the server will listen for connections  
+        int port = 65432; // The port number on which the server will listen for connections
 
         // Create a ServerSocket to listen on the specified port
         try (ServerSocket serverSocket = new ServerSocket(port)) {
